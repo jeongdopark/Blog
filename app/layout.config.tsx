@@ -19,7 +19,7 @@ export const baseOptions: BaseLayoutProps = {
         >
           <circle cx={12} cy={12} r={12} fill="currentColor" />
         </svg>
-        My App
+        Jeongdo Park
       </>
     ),
   },
@@ -27,6 +27,11 @@ export const baseOptions: BaseLayoutProps = {
     {
       text: 'Documentation',
       url: '/docs',
+      active: 'nested-url',
+    },
+    {
+      text: 'Posting',
+      url: '/blog',
       active: 'nested-url',
     },
   ],
