@@ -9,7 +9,12 @@ import { buttonVariants } from '@/components/ui/button';
 import { Control } from '@/app/(home)/blog/[slug]/page.client';
 import { File, Files, Folder } from 'fumadocs-ui/components/files';
 import { Tab, Tabs } from 'fumadocs-ui/components/tabs';
+import { Callout } from 'fumadocs-ui/components/callout';
 import CustomImage from '@/components/CustomImage';
+import CodeHeader from '@/components/CodeHeader';
+import Blockquote from '@/components/Blockquote';
+import Highlight from '@/components/Highlight';
+
 
 export default async function Page(props: {
   params: Promise<{ slug: string }>;
@@ -57,6 +62,10 @@ export default async function Page(props: {
               Tabs,
               Tab,
               CustomImage,
+              CodeHeader, 
+              Blockquote,
+              Highlight,
+              Callout
             }}
           />
         </div>
