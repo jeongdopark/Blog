@@ -9,6 +9,7 @@ import { buttonVariants } from '@/components/ui/button';
 import { Control } from '@/app/(home)/blog/[slug]/page.client';
 import { File, Files, Folder } from 'fumadocs-ui/components/files';
 import { Tab, Tabs } from 'fumadocs-ui/components/tabs';
+import CustomImage from '@/components/CustomImage';
 
 export default async function Page(props: {
   params: Promise<{ slug: string }>;
@@ -55,6 +56,7 @@ export default async function Page(props: {
               Folder,
               Tabs,
               Tab,
+              CustomImage,
             }}
           />
         </div>
