@@ -39,7 +39,7 @@ export default async function Page(props: {
         </h1>
         <p className="mb-4 text-white/80">{page.data.description}</p>
         <Link
-          href="/blog"
+          href="/"
           className={buttonVariants({ size: 'sm', variant: 'secondary' })}
         >
           Back

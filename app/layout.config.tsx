@@ -24,11 +24,11 @@ export const baseOptions: BaseLayoutProps = {
     ),
   },
   links: [
-    {
-      text: 'Posting',
-      url: '/blog',
-      active: 'nested-url',
-    },
+    // {
+    //   text: 'Posting',
+    //   url: '/blog',
+    //   active: 'nested-url',
+    // },
     // {
     //   text: 'Album',
     //   url: '/album',
